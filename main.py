@@ -93,6 +93,8 @@ I = [[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]]
 print_matrix('A Matrix is:', A)
 print()
 print_matrix('I Matrix is:', I)
+#מדפיס את התוצאה של הדטרמיננתה
+print(determinant(A))
 
 k = len(A)
 temp = 0
